@@ -15,7 +15,8 @@ public class FizzBuzzTest {
         //arrange
         int start = 1;
         int end = 20;
-        String[] expectedResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"};
+        String[] expectedResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
+                "11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"};
 
         //act
 
@@ -70,7 +71,7 @@ public class FizzBuzzTest {
         //arrange
         int start = 20;
         int end = 1;
-        String[] expectedResult = {"1"};
+        String[] expectedResult = {};
 
         //act
 
